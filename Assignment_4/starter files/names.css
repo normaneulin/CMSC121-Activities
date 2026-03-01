@@ -1,0 +1,77 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    margin: 1em 2em;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 0.3em;
+}
+
+.loading {
+    display: inline;
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
+}
+
+#meaning q {
+    font-style: italic;
+}
+
+#graph {
+    margin-top: 0.5em;
+}
+
+#graph th {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 8px;
+    font-size: 0.9em;
+}
+
+#graph td {
+    vertical-align: bottom;
+    height: 250px;
+    padding: 0 4px;
+}
+
+.rankbar {
+    background-color: #FFBBBB;
+    font-weight: bold;
+    text-align: center;
+    overflow: visible;
+    display: block;
+}
+
+.hotrank {
+    color: red;
+}
+
+#celebs {
+    margin-top: 0.3em;
+    padding-left: 1.5em;
+}
+
+#celebs li {
+    margin-bottom: 0.15em;
+}
+
+#errors {
+    margin-top: 1em;
+}
+
+.errormsg {
+    color: red;
+    font-weight: bold;
+}
